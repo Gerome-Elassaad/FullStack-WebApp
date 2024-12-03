@@ -1,0 +1,23 @@
+## User Story
+
+As a **user**, I want to see a placeholder image when an item doesn't have an image, so that the UI remains clean and user-friendly.
+
+## Acceptance Criteria
+
+- [ ] **Acceptance Criteria 1**: If an item has no image, a default "No Image Available" image should be shown.
+- [ ] **Acceptance Criteria 2**: The placeholder image should be styled similarly to other images.
+
+## Tasks
+
+- [ ] **Task 1**: Add a default image to the project assets.
+- [ ] **Task 2**: Update the front-end to show the placeholder image if no image is available for an item.
+
+## Additional Information
+
+- **Priority**: Low
+- **Related Issues**: #107
+- **Dependencies**: None
+
+## Notes
+
+Consider adding an option for users to upload their own images for items.
