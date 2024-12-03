@@ -1,0 +1,24 @@
+## User Story
+
+As a **user**, I want to **be able to filter items by category**, so that I can easily find the items I am interested in.
+
+## Acceptance Criteria
+
+- [ ] **Acceptance Criteria 1**: A dropdown should be added to the UI for selecting categories.
+- [ ] **Acceptance Criteria 2**: The list of items should update based on the selected category.
+
+## Tasks
+
+- [ ] **Task 1**: Implement the filter UI in the front-end.
+- [ ] **Task 2**: Update the back-end API to support category filtering.
+- [ ] **Task 3**: Test the feature with different categories.
+
+## Additional Information
+
+- **Priority**: High
+- **Related Issues**: #101
+- **Dependencies**: None
+
+## Notes
+
+Ensure the feature is responsive and works well on mobile devices.
