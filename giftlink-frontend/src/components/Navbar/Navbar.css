@@ -1,0 +1,54 @@
+/* Navbar styling */
+.navbar {
+    background-color: #343a40; /* Dark background for navbar */
+    padding: 0.5rem 1rem; /* Add some padding to navbar */
+}
+
+.navbar-brand {
+    font-size: 1.8rem; /* Larger font for brand name */
+    font-weight: bold;
+    color: #ffffff; /* White color for brand */
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: #f8f9fa; /* Lighten the brand color on hover */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Align the navbar items to the right */
+}
+
+.nav-item {
+    margin-left: 20px; /* Space between each nav item */
+}
+
+.nav-link {
+    font-size: 1.1rem; /* Font size for the links */
+    color: #f8f9fa; /* Light color for the links */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners for the links */
+}
+
+.nav-link:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: white; /* Change text color to white on hover */
+}
+
+.nav-link.active {
+    background-color: #0056b3; /* Active link background */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+        margin-top: 10px; /* Add space on smaller screens */
+    }
+
+    .nav-item {
+        margin: 10px 0; /* Vertical space for items */
+    }
+}

@@ -1,19 +1,102 @@
-/* Task 1: Style the body */
+/* Task 1: Styling the body */
 body {
-    /* insert code here */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #ececec; /* Slightly darker gray background for better contrast */
 }
 
 /* Task 2: Create a pseudo-element for the background and blur */
 body::before {
-    /* insert code here */
+    content: '';
+    position: fixed; /* Fixed position to cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/static/background-stars.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(8px); /* Slightly reduced blur effect */
+    z-index: -1; /* Place it behind the content */
 }
 
 /* Task 3: Style the content area */
 .content {
-    /* insert code here */
+    position: relative;
+    font-weight: 600;
+    z-index: 2; /* Higher z-index to ensure content is above the blurred background */
+    text-align: center;
+    color: #222; /* Darker text color for better readability */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.85); /* More opaque white background for better contrast */
+    border-radius: 15px; /* Slightly more rounded corners for a softer look */
 }
 
-/* Task 4: Add styles for headings, paragraphs, and buttons */
-h1, h2, .lead, .btn-primary {
-    /* insert code here */
+/* Task 4: Style headings, paragraphs, and buttons */
+h1, h2 {
+    font-size: 4rem; /* Large font size for main heading */
+    color: #333; /* Darker text color for headings */
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5rem; /* Slightly smaller font size for subheading */
+    color: #444; /* Lighter color for subheading to create contrast with h1 */
+}
+
+.lead {
+    font-size: 1.5rem; /* Larger font size for the quote */
+    color: #444; /* Dark text color for better readability */
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Darker text shadow for legibility */
+}
+
+/* Updated .btn-primary for Get Started button */
+.btn-primary {
+    background-color: #007bff; /* Standard blue color for the button */
+    color: #ffffff; /* White text for contrast */
+    border: none;
+    padding: 1rem 2.5rem; /* Generous padding for a larger button */
+    border-radius: 30px; /* Rounded edges */
+    font-size: 1.2rem; /* Larger font size for readability */
+    font-weight: 700; /* Bold font for the button text */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow for more depth */
+    text-decoration: none; /* Remove underline if it is styled as a link */
+    display: inline-block; /* Make it behave like a block element */
+    transition: background-color 0.3s, transform 0.1s;
+    margin-top: 30px; /* Add some space between button and the content */
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #0056b3; /* Darker shade on hover for interaction feedback */
+    transform: scale(1.05); /* Slightly enlarge button on hover/focus */
+}
+
+/* Ensure the link/button is centered within the content */
+.content a {
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem; /* Smaller font size for headings on mobile */
+    }
+    h2 {
+        font-size: 2rem; /* Smaller font size for subheadings on mobile */
+    }
+    .lead {
+        font-size: 1.25rem; /* Smaller font size for text on mobile */
+    }
 }
