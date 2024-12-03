@@ -1,0 +1,25 @@
+## User Story
+
+As a **user**, I want to **register and log in to my account**, so that I can securely manage my preferences and data.
+
+## Acceptance Criteria
+
+- [ ] **Acceptance Criteria 1**: Users should be able to register with an email and password.
+- [ ] **Acceptance Criteria 2**: Users should be able to log in with their credentials.
+- [ ] **Acceptance Criteria 3**: Display error messages for invalid login attempts.
+
+## Tasks
+
+- [ ] **Task 1**: Set up authentication routes in the back-end.
+- [ ] **Task 2**: Create registration and login forms on the front-end.
+- [ ] **Task 3**: Implement JWT token-based authentication.
+
+## Additional Information
+
+- **Priority**: High
+- **Related Issues**: #103
+- **Dependencies**: None
+
+## Notes
+
+Use bcrypt for password hashing and JWT for user sessions.
