@@ -1,0 +1,23 @@
+## User Story
+
+As a **user**, I want the **application UI to be mobile-friendly**, so that I can easily use it on my mobile device.
+
+## Acceptance Criteria
+
+- [ ] **Acceptance Criteria 1**: The UI should resize and rearrange for smaller screens.
+- [ ] **Acceptance Criteria 2**: Buttons should be large enough to click on mobile devices.
+
+## Tasks
+
+- [ ] **Task 1**: Use media queries to make the UI responsive.
+- [ ] **Task 2**: Test on different mobile screen sizes.
+
+## Additional Information
+
+- **Priority**: Low
+- **Related Issues**: #105
+- **Dependencies**: None
+
+## Notes
+
+Focus on the most commonly used mobile resolutions.
