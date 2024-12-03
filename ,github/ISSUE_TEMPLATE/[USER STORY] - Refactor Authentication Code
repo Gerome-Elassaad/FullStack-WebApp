@@ -1,0 +1,23 @@
+## User Story
+
+As a **developer**, I want to **refactor the authentication code**, so that it becomes easier to maintain and less prone to errors.
+
+## Acceptance Criteria
+
+- [ ] **Acceptance Criteria 1**: Break down the authentication code into smaller, reusable functions.
+- [ ] **Acceptance Criteria 2**: Write unit tests for the authentication functions.
+
+## Tasks
+
+- [ ] **Task 1**: Refactor the login and registration logic into separate functions.
+- [ ] **Task 2**: Write unit tests for authentication logic.
+
+## Additional Information
+
+- **Priority**: Medium
+- **Related Issues**: #104
+- **Dependencies**: None
+
+## Notes
+
+Ensure the refactor doesn't break any existing features.
