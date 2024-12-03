@@ -1,0 +1,24 @@
+## User Story
+
+As a **user**, I want to **search for items based on keywords**, so that I can quickly find the items I need.
+
+## Acceptance Criteria
+
+- [ ] **Acceptance Criteria 1**: The search bar should accept keywords and return relevant items.
+- [ ] **Acceptance Criteria 2**: The results should be sorted by relevance.
+
+## Tasks
+
+- [ ] **Task 1**: Add search functionality to the back-end.
+- [ ] **Task 2**: Implement search UI in the front-end.
+- [ ] **Task 3**: Implement sorting by relevance.
+
+## Additional Information
+
+- **Priority**: Medium
+- **Related Issues**: #102
+- **Dependencies**: None
+
+## Notes
+
+Consider adding auto-suggestions to improve user experience.
