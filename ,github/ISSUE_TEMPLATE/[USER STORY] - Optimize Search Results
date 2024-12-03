@@ -1,0 +1,24 @@
+## User Story
+
+As a **user**, I want **faster search results**, so that I can find items more quickly.
+
+## Acceptance Criteria
+
+- [ ] **Acceptance Criteria 1**: The search results should be displayed within 2 seconds.
+- [ ] **Acceptance Criteria 2**: The back-end should be optimized for quicker data retrieval.
+
+## Tasks
+
+- [ ] **Task 1**: Optimize the search query on the back-end.
+- [ ] **Task 2**: Implement caching for frequently searched terms.
+- [ ] **Task 3**: Test the speed of the search results.
+
+## Additional Information
+
+- **Priority**: High
+- **Related Issues**: #108
+- **Dependencies**: None
+
+## Notes
+
+Consider using an index on the database for faster search performance.
